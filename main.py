@@ -57,5 +57,5 @@ def setter_token_users(message):
 bot.polling()
 
 
-"""Это хуита для удаления в дальнейшем может пригодится"""
+"""Это хуита для удаления в дальнейшем может пригодится!!!"""
 # sql.execute('DELETE FROM name_and_token WHERE name = ?', ('Gleb',))
