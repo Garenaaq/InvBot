@@ -1,11 +1,3 @@
-heroku login ksergeychuk2092@ya.ru Lazsxdcf2!
-heroku create --region eu main #имя приложения
-heroku addons:create heroku-redis:hobby-dev -a main 
-heroku buildpacks:set heroku/python
-git push heroku master
-heroku ps:scale bot=1 # запускаем бота
-heroku logs --tail #включаем логи
-
 import json
 import sqlite3
 import telebot
